@@ -1,81 +1,48 @@
-# 📊 Dashboard de Análise de Valores Travados e Risco
+## 📊 Estrutura do Dashboard
 
-## 📌 Sobre o Projeto
-Este projeto foi desenvolvido com o objetivo de analisar valores travados em carteira, identificando padrões, riscos e oportunidades de atuação. O dashboard permite uma visão consolidada e detalhada dos indicadores, apoiando a tomada de decisão estratégica.
+### 🔎 Visão Geral
+Apresenta os principais indicadores (KPIs), como valor em carteira, valor travado, índice de risco e divergências, permitindo uma análise rápida do cenário geral.
 
----
-
-## 🎯 Objetivo
-- Monitorar valores travados na carteira
-- Identificar causas de divergências e bloqueios
-- Analisar impacto por cliente, regra e faixa de aging
-- Apoiar a priorização de ações operacionais e estratégicas
-
----
-
-## 🛠️ Ferramentas Utilizadas
-- Microsoft Power BI
-- Microsoft Excel
-- Power Query
-
----
-
-## 📊 Principais Indicadores (KPIs)
-- Valor total em carteira
-- Valor travado
-- Índice de risco (%)
-- % de divergência
-- % travado
-- Quantidade de clientes impactados
-- Volume de divergências críticas
-
----
-
-## 📈 Principais Análises
-- Distribuição de valores travados por cliente
-- Análise por tipo de bloqueio (RETIRA, divergência, crédito, estoque)
-- Avaliação por faixa de aging (prazo de vencimento)
-- Análise por regras de bloqueio
-- Evolução temporal dos valores travados
-
----
-
-## 💡 Insights Gerados
-- Concentração significativa de valores travados em poucos clientes (indicando risco concentrado)
-- Identificação de regras específicas responsáveis pela maior parte dos bloqueios
-- Aumento expressivo de valores travados em determinados períodos, indicando possíveis falhas operacionais ou mudanças no processo
-- Faixas de aging mais críticas concentradas em vencimentos de médio e longo prazo
-
----
-
-## 📸 Visual do Dashboard
-<img width="1265" height="719" alt="image" src="https://github.com/user-attachments/assets/4e3ac36a-8b21-48ba-9302-89cce4538e67" />
+<img width="1268" height="720" alt="image" src="https://github.com/user-attachments/assets/6461147c-b140-431d-b2b6-85746c124f7c" />
 
 
 ---
 
-## 📁 Estrutura do Projeto
-📦 paineis-de-controle
- ┣ 📊 dashboard.pbix
- ┣ 📁 dados
- ┃ ┗ base_tratada.csv
- ┣ 📁 imagens
- ┃ ┗ visao-geral.png
- ┗ 📄 README.md
+### 📦 Análise Operacional de Pedidos
+Foco na análise detalhada dos pedidos bloqueados, permitindo identificar volume de pedidos impactados, divergências críticas e valores atrasados.
+
+Principais análises:
+- Quantidade de pedidos bloqueados
+- Distribuição de valores por produto
+- Análise por vendedor
+- Detalhamento de pedidos e interações operacionais
+
+Essa aba permite identificar gargalos operacionais e priorizar tratativas.
+
+<img width="1265" height="711" alt="image" src="https://github.com/user-attachments/assets/85402ce9-09e3-418c-8f09-b7e0e96d2f10" />
+
 
 ---
 
-## 🔒 Tratamento dos Dados
-Os dados utilizados neste projeto foram anonimizados e/ou simulados com base em estruturas reais, com o objetivo de preservar a confidencialidade das informações, mantendo a lógica analítica e as relações entre variáveis.
+### 👤 Análise Individual por Vendedor
+Visão detalhada da performance e impacto por vendedor, permitindo análise individual de divergências e valores travados.
 
----
+Principais análises:
+- Quantidade de divergências por vendedor
+- Valor travado e valor atrasado por responsável
+- Principais causas (regras) das divergências
+- Identificação de padrões operacionais
 
-## 🚀 Como utilizar
-1. Baixe o arquivo `.pbix`
-2. Abra no Power BI Desktop
-3. Navegue pelas abas do dashboard para explorar as análises
+Essa análise auxilia na identificação de oportunidades de melhoria e atuação direcionada por responsável.
 
----
+<img width="561" height="794" alt="image" src="https://github.com/user-attachments/assets/d8a36384-7bb4-4f99-8a0c-fc8323035e5e" />
 
-## 📬 Sobre mim
-Profissional com experiência em análise de dados aplicada a operações e negócios, com foco na geração de insights e suporte à tomada de decisão.
+## 🧠 Abordagem Analítica
+
+O dashboard foi estruturado em três níveis de análise:
+
+- Estratégico: visão geral dos indicadores e riscos
+- Tático: análise operacional dos pedidos e bloqueios
+- Operacional: detalhamento por responsável (vendedor)
+
+Essa abordagem permite navegar do macro ao micro, facilitando a identificação de causas raiz e priorização de ações.
