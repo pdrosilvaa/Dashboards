@@ -19,7 +19,8 @@ Principais análises:
 
 Essa aba permite identificar gargalos operacionais e priorizar tratativas.
 
-<img width="1265" height="711" alt="image" src="https://github.com/user-attachments/assets/85402ce9-09e3-418c-8f09-b7e0e96d2f10" />
+<img width="1265" height="706" alt="image" src="https://github.com/user-attachments/assets/67d380be-841f-4ac6-a099-f6402f775a6e" />
+
 
 
 ---
@@ -35,7 +36,8 @@ Principais análises:
 
 Essa análise auxilia na identificação de oportunidades de melhoria e atuação direcionada por responsável.
 
-<img width="561" height="794" alt="image" src="https://github.com/user-attachments/assets/d8a36384-7bb4-4f99-8a0c-fc8323035e5e" />
+<img width="565" height="799" alt="image" src="https://github.com/user-attachments/assets/6aa8734a-9405-494b-aab0-0f3d78a779ac" />
+
 
 ## 🧠 Abordagem Analítica
 
