@@ -1,15 +1,15 @@
-# 📊 Dashboard de Análise de Vendas
+# 📊 Dashboard de Análise de Valores Travados e Risco
 
 ## 📌 Sobre o Projeto
-Este projeto foi desenvolvido com o objetivo de analisar dados de vendas e gerar insights para suporte à tomada de decisão. O dashboard permite a visualização de indicadores-chave (KPIs), facilitando a identificação de padrões, tendências e oportunidades de melhoria no desempenho comercial.
+Este projeto foi desenvolvido com o objetivo de analisar valores travados em carteira, identificando padrões, riscos e oportunidades de atuação. O dashboard permite uma visão consolidada e detalhada dos indicadores, apoiando a tomada de decisão estratégica.
 
 ---
 
 ## 🎯 Objetivo
-- Monitorar indicadores de performance (KPIs)
-- Analisar comportamento de vendas ao longo do tempo
-- Identificar oportunidades de crescimento e otimização
-- Apoiar decisões estratégicas baseadas em dados
+- Monitorar valores travados na carteira
+- Identificar causas de divergências e bloqueios
+- Analisar impacto por cliente, regra e faixa de aging
+- Apoiar a priorização de ações operacionais e estratégicas
 
 ---
 
@@ -20,28 +20,62 @@ Este projeto foi desenvolvido com o objetivo de analisar dados de vendas e gerar
 
 ---
 
-## 📊 Principais Análises
-- Receita total e evolução ao longo do tempo
-- Performance por vendedor
-- Análise por cliente e produto
-- Ticket médio
-- Volume de vendas
+## 📊 Principais Indicadores (KPIs)
+- Valor total em carteira
+- Valor travado
+- Índice de risco (%)
+- % de divergência
+- % travado
+- Quantidade de clientes impactados
+- Volume de divergências críticas
+
+---
+
+## 📈 Principais Análises
+- Distribuição de valores travados por cliente
+- Análise por tipo de bloqueio (RETIRA, divergência, crédito, estoque)
+- Avaliação por faixa de aging (prazo de vencimento)
+- Análise por regras de bloqueio
+- Evolução temporal dos valores travados
 
 ---
 
 ## 💡 Insights Gerados
-- Identificação de produtos com maior contribuição no faturamento
-- Variação de desempenho entre vendedores
-- Padrões de sazonalidade nas vendas
-- Oportunidades de otimização de mix de produtos
+- Concentração significativa de valores travados em poucos clientes (indicando risco concentrado)
+- Identificação de regras específicas responsáveis pela maior parte dos bloqueios
+- Aumento expressivo de valores travados em determinados períodos, indicando possíveis falhas operacionais ou mudanças no processo
+- Faixas de aging mais críticas concentradas em vencimentos de médio e longo prazo
 
 ---
 
 ## 📸 Visual do Dashboard
-![Visão Geral](imagens/visao-geral.png)
-![Análise de Vendas](imagens/vendas.png)
+<img width="1265" height="719" alt="image" src="https://github.com/user-attachments/assets/4e3ac36a-8b21-48ba-9302-89cce4538e67" />
 
----<img width="1273" height="720" alt="Captura de tela 2026-04-22 135540" src="https://github.com/user-attachments/assets/13b00658-12e3-4c08-8990-f7f385ae8f1f" />
 
+---
 
 ## 📁 Estrutura do Projeto
+📦 paineis-de-controle
+ ┣ 📊 dashboard.pbix
+ ┣ 📁 dados
+ ┃ ┗ base_tratada.csv
+ ┣ 📁 imagens
+ ┃ ┗ visao-geral.png
+ ┗ 📄 README.md
+
+---
+
+## 🔒 Tratamento dos Dados
+Os dados utilizados neste projeto foram anonimizados e/ou simulados com base em estruturas reais, com o objetivo de preservar a confidencialidade das informações, mantendo a lógica analítica e as relações entre variáveis.
+
+---
+
+## 🚀 Como utilizar
+1. Baixe o arquivo `.pbix`
+2. Abra no Power BI Desktop
+3. Navegue pelas abas do dashboard para explorar as análises
+
+---
+
+## 📬 Sobre mim
+Profissional com experiência em análise de dados aplicada a operações e negócios, com foco na geração de insights e suporte à tomada de decisão.
